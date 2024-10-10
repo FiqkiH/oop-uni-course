@@ -1,4 +1,4 @@
-package TeoriOOP;
+package TeoriOOP.W3;
 
 public class PizzaBeraksi {
 

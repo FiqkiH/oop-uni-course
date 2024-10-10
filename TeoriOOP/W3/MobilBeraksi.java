@@ -1,4 +1,4 @@
-package TeoriOOP;
+package TeoriOOP.W3;
 
 public class MobilBeraksi {
     public static void main(String[] args) {

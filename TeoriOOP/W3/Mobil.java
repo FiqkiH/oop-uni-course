@@ -1,4 +1,4 @@
-package TeoriOOP;
+package TeoriOOP.W3;
 
 class Mobil {
     String warna;
