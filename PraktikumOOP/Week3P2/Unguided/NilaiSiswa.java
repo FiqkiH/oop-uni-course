@@ -1,6 +1,6 @@
 //Soal Unguided
 
-package PraktikumOOP.Week3P2;
+package PraktikumOOP.Week3P2.Unguided;
 
 public class NilaiSiswa {
     private String nama;

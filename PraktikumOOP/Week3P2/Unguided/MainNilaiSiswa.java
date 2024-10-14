@@ -1,4 +1,4 @@
-package PraktikumOOP.Week3P2;
+package PraktikumOOP.Week3P2.Unguided;
 
 public class MainNilaiSiswa {
     public static void main(String[] args) {
