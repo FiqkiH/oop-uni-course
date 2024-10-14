@@ -16,6 +16,6 @@ public class Car extends Vehicle{
     //override method tampilInfo
     public void tampilInfo() {
         super.tampilInfo();
-        System.out.println("Doors" + doors);
+        System.out.println("Doors: " + doors);
     }
 }
