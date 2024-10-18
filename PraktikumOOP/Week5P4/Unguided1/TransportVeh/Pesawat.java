@@ -8,6 +8,10 @@ public class Pesawat extends Transportasi{
         this.maskapai = maskapai;
     }
 
+    public String getMaskapai() {
+        return maskapai;
+    }
+
     @Override
     public double hitungHargaTiket() {
         if (getJarak() <= 0) {

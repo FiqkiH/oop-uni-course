@@ -8,6 +8,10 @@ public class Kereta extends Transportasi{
         this.jenisKereta = jenisKereta;
     }
 
+    public String getJenisKereta() {
+        return jenisKereta;
+    }
+
     @Override
     public double hitungHargaTiket() {
         if (getJarak() <= 0) {

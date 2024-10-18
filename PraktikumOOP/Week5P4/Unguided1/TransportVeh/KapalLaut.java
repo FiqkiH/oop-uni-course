@@ -8,6 +8,10 @@ public class KapalLaut extends Transportasi{
         this.namaKapal = namaKapal;
     }
 
+    public String getNamaKapal() {
+        return namaKapal;
+    }
+
     @Override
     public double hitungHargaTiket() {
         if (getJarak() <= 0) {
