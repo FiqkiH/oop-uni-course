@@ -15,6 +15,18 @@ public abstract class Transportasi {
         this.kelasLayanan = kelasLayanan;
     }
 
+    public String getNomorKendaraan() {
+        return nomorKendaraan;
+    }
+
+    public int getKapasitas() {
+        return kapasitas;
+    }
+
+    public String getAsalTujuan() {
+        return asalTujuan;
+    }
+
     public double getJarak() {
         return jarak;
     }
