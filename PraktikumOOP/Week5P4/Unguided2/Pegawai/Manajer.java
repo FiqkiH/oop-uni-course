@@ -1,19 +1,19 @@
 package PraktikumOOP.Week5P4.Unguided2.Pegawai;
 
 public class Manajer extends Pegawai {
-    private int jumlahProyek;
+    private int jumlahTim;
 
-    public Manajer(String nama, int gajiPokok, double lamaKerja, int jumlahProyek) {
+    public Manajer(String nama, int gajiPokok, double lamaKerja, int jumlahTim) {
         super(nama, gajiPokok, lamaKerja);
-        this.jumlahProyek = jumlahProyek;
+        this.jumlahTim = jumlahTim;
     }
 
-    public int getJumlahProyek() {
-        return jumlahProyek;
+    public int getJumlahTim() {
+        return jumlahTim;
     }
 
     @Override
     public int hitungBonus() {
-        return jumlahProyek*20000;
+        return jumlahTim*20000;
     }   
 }
