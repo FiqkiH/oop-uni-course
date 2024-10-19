@@ -25,7 +25,8 @@ public class Perusahaan {
                                 "\nJenis Pegawai: "  + Pegawai.getClass().getSimpleName() +
                                 "\nGaji Pokok: Rp. " + Pegawai.getGajiPokok() +
                                 "\nLama Kerja: " + Pegawai.getLamaKerja() + " tahun" +
-                                "\nBonus Tambahan: " + Pegawai.hitungBonus());
+                                "\nBonus Tambahan: " + Pegawai.hitungBonus() +
+                                "\nGaji Total: " + (Pegawai.hitungBonus() + Pegawai.getGajiPokok()));
             System.out.println();
         }
    }
