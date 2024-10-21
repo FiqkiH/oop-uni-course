@@ -14,33 +14,33 @@ public class Kereta extends Transportasi{
 
     @Override
     public double hitungHargaTiket() {
-        if (getJarak() <= 0) {
+        if (jarak <= 0) {
             System.out.println("Nilai Jarak Invalid");
             return -1;
         }
         //set threshold jarak 100km, 200km, 300km
-        switch (getKelasLayanan()) {
+        switch (kelasLayanan) {
             case "Ekonomi":
-                if (getJarak() <= 100) {
+                if (jarak <= 100) {
                     return 250000;
-                } else if (getJarak() <= 200) {
+                } else if (jarak <= 200) {
                     return 500000;
                 } else {
                     return 750000;
                 }
             case "Bisnis":
-                if (getJarak() <= 100) {
+                if (jarak <= 100) {
                     return 750000;
-                } else if (getJarak() <= 200) {
+                } else if (jarak <= 200) {
                     return 1000000;
                 } else {
                     return 1250000;
                 }
 
             case "VIP":
-                if (getJarak() <= 100) {
+                if (jarak <= 100) {
                     return 1250000;
-                } else if (getJarak() <= 200) {
+                } else if (jarak <= 200) {
                     return 1500000;
                 } else {
                     return 1750000;

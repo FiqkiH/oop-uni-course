@@ -14,33 +14,33 @@ public class Pesawat extends Transportasi{
 
     @Override
     public double hitungHargaTiket() {
-        if (getJarak() <= 0) {
+        if (jarak <= 0) {
             System.out.println("Nilai Jarak Invalid");
             return -1;
         }
         //set threshold jarak 100km, 200km, 300km
-        switch (getKelasLayanan()) {
+        switch (kelasLayanan) {
             case "Ekonomi":
-                if (getJarak() <= 100) {
+                if (jarak <= 100) {
                     return 1000000;
-                } else if (getJarak() <= 200) {
+                } else if (jarak <= 200) {
                     return 1500000;
                 } else {
                     return 2000000;
                 }
             case "Bisnis":
-                if (getJarak() <= 100) {
+                if (jarak <= 100) {
                     return 2000000;
-                } else if (getJarak() <= 200) {
+                } else if (jarak <= 200) {
                     return 2500000;
                 } else {
                     return 3000000;
                 }
 
             case "VIP":
-                if (getJarak() <= 100) {
+                if (jarak <= 100) {
                     return 3000000;
-                } else if (getJarak() <= 200) {
+                } else if (jarak <= 200) {
                     return 3500000;
                 } else {
                     return 4000000;

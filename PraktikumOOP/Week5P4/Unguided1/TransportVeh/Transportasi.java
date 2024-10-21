@@ -1,11 +1,11 @@
 package PraktikumOOP.Week5P4.Unguided1.TransportVeh;
 
 public abstract class Transportasi {
-    private String nomorKendaraan;
-    private int kapasitas;
-    private String asalTujuan;
-    private double jarak;
-    private String kelasLayanan;
+    protected String nomorKendaraan;
+    protected int kapasitas;
+    protected String asalTujuan;
+    protected double jarak;
+    protected String kelasLayanan;
 
     public Transportasi(String nomorKendaraan, int kapasitas, String asalTujuan, double jarak, String kelasLayanan) {
         this.nomorKendaraan = nomorKendaraan;
@@ -15,24 +15,8 @@ public abstract class Transportasi {
         this.kelasLayanan = kelasLayanan;
     }
 
-    public String getNomorKendaraan() {
-        return nomorKendaraan;
-    }
-
-    public int getKapasitas() {
-        return kapasitas;
-    }
-
     public String getAsalTujuan() {
         return asalTujuan;
-    }
-
-    public double getJarak() {
-        return jarak;
-    }
-
-    public String getKelasLayanan() {
-        return kelasLayanan;
     }
 
     public abstract double hitungHargaTiket();
