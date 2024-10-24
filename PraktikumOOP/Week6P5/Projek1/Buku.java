@@ -16,7 +16,7 @@ public class Buku {
         return judulBuku;
     }
 
-    public List<Penulis> daftarPenulis() {
+    public List<Penulis> getDaftarPenulis() {
         return daftarPenulis;
     }
 
