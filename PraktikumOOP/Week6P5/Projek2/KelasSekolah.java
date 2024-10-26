@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class KelasSekolah {
     public String namaKelas;
-    public List<Siswa> daftarSiswa;
+    public ArrayList<Siswa> daftarSiswa;
 
     public KelasSekolah(String namaKelas) {
         this.namaKelas = namaKelas;
@@ -21,6 +21,8 @@ public class KelasSekolah {
     }
 
     public void cetakSiswa() {
+        System.out.println("Kelas: " + namaKelas);
+        System.out.println("Siswa: ");
         for (Siswa siswa : daftarSiswa) {
             System.out.println(siswa.getNamaSiswa());
         }
