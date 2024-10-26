@@ -4,7 +4,7 @@ public class Siswa {
     private String namaSiswa;
 
     public Siswa(String siswa) {
-        this.namaSiswa = namaSiswa;
+        this.namaSiswa = siswa;
     }
 
     public String getNamaSiswa() {

@@ -11,8 +11,15 @@ public class Main {
         kelas.addSiswa(siswa2);
         kelas.addSiswa(siswa3);
 
-        System.out.println("Kelas: " + kelas.getNamaKelas());
         kelas.cetakSiswa();
+
+        kelas = null;
+
+        //siswa masih ada meskipun kelas dihapus
+        System.out.println("Bukti: ");
+        System.out.println(siswa1.getNamaSiswa());
+        System.out.println(siswa2.getNamaSiswa());
+        System.out.println(siswa3.getNamaSiswa());
 
     }
 }
