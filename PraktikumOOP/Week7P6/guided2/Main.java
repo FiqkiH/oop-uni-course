@@ -7,8 +7,8 @@ public class Main {
         System.out.println("Gaji pegawai (plus bonus) " + employee.hitungGaji(10000));
 
         Manajer manajer = new Manajer("Eksdi", 7500, 500);
-        System.out.println("Gaji manajer (tidak ada bonus)" + manajer.hitungGaji());
-        System.out.println("Gaji manajer (plus bonus)" + manajer.hitungGaji(3000));
+        System.out.println("Gaji manajer (tidak ada bonus ada tunjangan)" + manajer.hitungGaji());
+        System.out.println("Gaji manajer (plus bonus saja)" + manajer.hitungGaji(3000));
     }
     
 }
