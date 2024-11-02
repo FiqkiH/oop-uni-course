@@ -8,11 +8,11 @@ public class Bola extends Lingkaran {
 
     @Override
     public int getLuas() {
-        return 4 * (int) Math.PI * (int) Math.pow(getJarijari(), 2);
+        return (int) (4 * Math.PI * Math.pow(getJarijari(), 2));
     }
 
     public int getVolume() {
-        return 4/3 * (int) Math.PI * (int) Math.pow(getJarijari(), 3);
+        return (int) (4 * Math.PI * Math.pow(getJarijari(), 3) / 3);
     }
     
 }

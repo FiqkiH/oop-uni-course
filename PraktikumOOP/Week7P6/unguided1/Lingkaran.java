@@ -17,10 +17,10 @@ public class Lingkaran {
     }
 
     public int getLuas() {
-        return (int) Math.PI * (int) Math.pow(jarijari, 2);
+        return (int) (Math.PI * Math.pow(jarijari, 2));
     }
 
     public int getLuas(int jarijari) {
-        return (int) Math.PI * (int) Math.pow(jarijari, 2);
+        return (int) (Math.PI * Math.pow(jarijari, 2));
     }
 }
