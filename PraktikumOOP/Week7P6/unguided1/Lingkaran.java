@@ -1,6 +1,5 @@
 package PraktikumOOP.Week7P6.unguided1;
 
-import java.lang.Math;
 
 public class Lingkaran {
     private int jarijari;
