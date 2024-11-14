@@ -9,7 +9,7 @@ public class Driver {
         }
 
         System.out.println(
-            CounterMachine.getCounter()
+            CounterMachine.counter
         );
     }
 }
