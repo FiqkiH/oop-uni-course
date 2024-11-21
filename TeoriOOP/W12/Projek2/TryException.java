@@ -4,10 +4,19 @@ public class TryException {
     int number[] = new int[5];
 
     public void setNumber(int id, int number) {
-        this.number[id] = 5/number;
+        try {
+            this.number[id] = 5/number;
+        } catch (Exception e) {
+            System.out.println("Error in setNumber");
+        }
     }
     public int getNumber(int id) {
-        return number[id];
+        try {
+            return number[id];
+        } catch (Exception e) {
+            return 0;
+        }
+        
     }
     
 }
