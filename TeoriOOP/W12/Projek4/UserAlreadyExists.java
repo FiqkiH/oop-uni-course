@@ -4,7 +4,7 @@ public class UserAlreadyExists extends RuntimeException {
     private String id;
     private String user;
 
-    public UserAlreadyExists(String message, String id, String name) {
+    public UserAlreadyExists(String message, String id, String user) {
         super(message);
         this.user = user;
         this.id = id;
