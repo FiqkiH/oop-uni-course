@@ -10,6 +10,10 @@ public class Animal {
         this.umur = umur;
     }
 
+    public String getNama() {
+        return nama;
+    }
+
     public static int hitungJumlahHewan() {
         return jumlahHewan+=1;
     }
