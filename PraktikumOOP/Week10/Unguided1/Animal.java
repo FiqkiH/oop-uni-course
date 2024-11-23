@@ -14,13 +14,20 @@ public class Animal {
         return nama;
     }
 
-    public static int hitungJumlahHewan() {
-        return jumlahHewan+=1;
+    public int getUmur() {
+        return umur;
+    }
+
+    public int getJumlahHewan() {
+        return jumlahHewan;
+    }
+
+    public static void hitungJumlahHewan() {
+        jumlahHewan++;
     }
 
     public void tampilInfo() {
-        System.out.println("### Informasi Hewan ###" +
-                        "\n Nama : " + nama + 
+        System.out.println("\n Nama : " + nama + 
                         "\n Umur: " + umur);
     }
 }
